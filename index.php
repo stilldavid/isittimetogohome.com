@@ -1,5 +1,11 @@
 <?
 
+/**
+ * 17 is 5 o'clock in 24 hour time.
+ *
+ * Other than that, you're on your own trying to figure this out.
+ */
+
 function get_t_zone($hour) {
   $diff = abs(17 - $hour);
   
